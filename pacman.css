@@ -1,0 +1,88 @@
+*{
+	vertical-align: baseline;
+	font-family: Verdana;
+	font-style: inherit;
+	font-size: inherit;
+	border: 0px none;
+/* 	outline: 1px dotted red; 0; */
+	padding: 0px;
+	margin: 0px; 
+}
+body{
+	background-color: black;
+}
+div.brick{
+	background-color: blue;
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+}
+div.coin{
+	background-image: url('img/pellet.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+}
+div.empty{
+	height: 15px;	
+	width: 15px;
+	display: inline-block;
+}
+div#pacman{
+	background-image: url('img/pacman.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+}
+div#container{
+	font-size: 0px;
+	width: 200px;
+	margin: 0px 0px 0px 15px;
+}
+div#world{
+	font-size: 0px;
+}
+div#inky{
+	background-image: url('img/inky.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+}
+div#blinky{
+	background-image: url('img/blinky.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+}
+div#pinky{
+	background-image: url('img/pinky.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+}
+div#clyde{
+	background-image: url('img/clyde.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+}
+div#wrapper{
+	position: relative;
+}
